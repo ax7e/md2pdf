@@ -1,0 +1,1 @@
+pandoc.exe --pdf-engine=xelatex -V CJKmainfont="KaiTi" --toc -N -V colorlinks -V urlcolor=NavyBlue -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -H head.tex -t pdf -o %2 %1
